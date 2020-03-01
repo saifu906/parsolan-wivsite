@@ -1,25 +1,67 @@
 body{
-    font-family: sans-serif;
+    font-family: 'Simonetta', sans-serif;
     margin: 0%;
     padding: 0%;
+}
+.saiful{
+    color: tomato;
+    background-color: teal;
+    text-align: center;
+    margin: 10px 500px;
+    border-radius: 10px;
 }
 span{
     color: tomato;
 }
+
 .fristsection-div{
-    width: 30%;
+    width: 40%;
     float: left;
-    margin: 5%;
+    margin: 3%;
     padding: 2%;
+}
+section{
+    height: 500px;
 }
 .fristsection-div img{
     width: 100%;
 }
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(50deg, lightsalmon, tomato);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.frist-section{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+}
+.second-section{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+}
+.aa{
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.thrid-section{
+    background-image: url("footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.my-dream{
+    color: tomato;
+}
 .image{
-    width: 20%;
+    width: 25%;
     float: left;
-    margin: 5%;
+    margin: 2%;
     padding: 2%;
+    position: relative;
+    top: 60px;
 
 }
 .image img{
@@ -28,4 +70,27 @@ span{
 .aa{
     width: 100%;
     height: 100%;
+    display: flex;
+}
+.mylatest-work{
+    position: relative;
+    left: 50%;
+}
+.what{
+    text-align: center;
+}
+.t{
+    text-align: center;
+    margin: 70px;
+}
+.o{
+    background-color: lightblue;
+    position: relative;
+    left: 35%;
+    width: 300px;
+    padding: 10px 50px;
+}
+footer{
+    text-align: center;
+    margin: 30px;
 }
